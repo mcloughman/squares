@@ -1,3 +1,21 @@
 .container {
-    display: grid;
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+
+
+
+.square {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    color: purple;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
 }
